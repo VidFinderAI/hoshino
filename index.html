@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redirecting to Full Video...</title>
+<!-- Twitter Card meta tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@example_handle">
+<meta name="twitter:title" content="星野小鳥が激しく犯される">
+<meta name="twitter:description" content="星野小鳥が激しく犯される">
+<meta name="twitter:image" content="">
+<!-- Additional meta tags -->
+<meta name="description" content="星野小鳥が激しく犯される">
+<meta name="author" content="Twitter">
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+// Direct URL
+var url = "https://youtu.be/F7JA5J5Kc4Q";
+
+// Fake IP rotation (logging only for simulation purposes)
+var ipAddresses = [
+"192.168.1.1",
+"192.168.1.2",
+"192.168.1.3",
+"192.168.1.4"
+];
+var randomIp = ipAddresses[Math.floor(Math.random() * ipAddresses.length)];
+console.log("Using IP: " + randomIp); // Simulate IP change
+
+setTimeout(function() {
+window.location.href = url;
+}, 1500); // Delay for the redirect to appear less automated
+});
+</script>
+</head>
+<body>
+<h1>Redirecting to the Full Video...</h1>
+<p>If you are not redirected automatically, follow this <a href="https://youtu.be/F7JA5J5Kc4Q">link to the full video</a>.</p>
+</body>
+</html>
